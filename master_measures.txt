@@ -1,5 +1,363 @@
 MASTER MEASURES
 ===============
 
-No master measures returned.
+Title: Budget $
+Label: Budget $
+ID: CGqTNpj
+Tags: 
+
+Expression:
+Sum ([Budget Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Sales Variance %
+Label: Sales Variance %
+ID: EUFVcR
+Tags: 
+
+Expression:
+(sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Northeast Revenue
+Label: Northeast Revenue
+ID: FBpdkpq
+Tags: 
+
+Expression:
+Sum({$<[Region Name]={"Northeast"}>}   [Sales Quantity]*[Sales Price])
+
+--------------------------------------------------------------------------------
+
+Title: Price
+Label: Price
+ID: GpZJcD
+Tags: 
+
+Expression:
+If(isnull([Sales Price]),Null(),Sum([Sales Price]))
+
+--------------------------------------------------------------------------------
+
+Title: Sales Variance
+Label: Sales Variance
+ID: HNMMUb
+Tags: 
+
+Expression:
+if((sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])>-0.45, (sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount]), 0 )
+
+--------------------------------------------------------------------------------
+
+Title: LY Sales
+Label: LY Sales
+ID: JWjf
+Tags: 
+
+Expression:
+Sum({$<[Year]={"2021"}>}[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: TY Sales
+Label: TY Sales
+ID: KJuWm
+Tags: 
+
+Expression:
+Sum({$<[Year]={"2022"}>}[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: New Customer Count
+Label: New Customer Count
+ID: KkWzkpj
+Tags: 
+
+Expression:
+Count({$<Cust_New={"1"}>} distinct Customer)
+
+--------------------------------------------------------------------------------
+
+Title: Avg Sales
+Label: Avg Sales
+ID: LvjWKp
+Tags: 
+
+Expression:
+Avg([Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: % OnTime Shipments
+Label: % OnTime Shipments
+ID: MLECukm
+Tags: 
+
+Expression:
+count(distinct If([Late Shipment] = 0 ,Shipments))/Count(Distinct Shipments)
+
+--------------------------------------------------------------------------------
+
+Title: Margin
+Label: Margin
+ID: NCRyd
+Tags: 
+
+Expression:
+Sum([Sales Margin Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Western Margin %
+Label: Western Margin %
+ID: Pwma
+Tags: 
+
+Expression:
+Sum({$ <[Region Name]={"Western"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Western"}> }[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: GP%
+Label: GP%
+ID: QuHqJS
+Tags: 
+
+Expression:
+if(Sum([Sales Margin Amount])/Sum([Sales Amount]) < 0,0,Sum([Sales Margin Amount])/Sum([Sales Amount]))
+
+--------------------------------------------------------------------------------
+
+Title: Western Revenue
+Label: Western Revenue
+ID: RJVvMZU
+Tags: 
+
+Expression:
+Sum({$<[Region Name]={"Western"}>}   [Sales Quantity]*[Sales Price])
+
+--------------------------------------------------------------------------------
+
+Title: Quantity
+Label: Quantity
+ID: RcBYTz
+Tags: 
+
+Expression:
+Sum([Sales Quantity])
+
+--------------------------------------------------------------------------------
+
+Title: Late Shipments
+Label: Late Shipments
+ID: RnaRQ
+Tags: 
+
+Expression:
+count(distinct If([Late Shipment] = 1 ,Shipments))
+
+--------------------------------------------------------------------------------
+
+Title: Budget %
+Label: Budget %
+ID: Setuf
+Tags: 
+
+Expression:
+Sum ([Actual Amount])/Sum([Budget Amount])
+
+--------------------------------------------------------------------------------
+
+Title: OnTime Shipments
+Label: OnTime Shipments
+ID: WJHU
+Tags: 
+
+Expression:
+count(distinct If([Late Shipment] = 0 ,Shipments))
+
+--------------------------------------------------------------------------------
+
+Title: Margin
+Label: Margin
+ID: XkJWrD
+Tags: 
+
+Expression:
+If(isnull([Sales Margin Amount]),Null(),Sum([Sales Margin Amount]))
+
+--------------------------------------------------------------------------------
+
+Title: Order Count
+Label: Order Count
+ID: XmGjBm
+Tags: 
+
+Expression:
+Count(distinct [Order Number])
+
+--------------------------------------------------------------------------------
+
+Title: Order Count Total
+Label: Order Count Total
+ID: XwfUUe
+Tags: 
+
+Expression:
+Count({$<[Line Desc 1]={"*"}>}distinct [Order Number])
+
+--------------------------------------------------------------------------------
+
+Title: Lost Customer Count
+Label: Lost Customer Count
+ID: YscJQG
+Tags: 
+
+Expression:
+Count({$<Cust_Lost={"1"}>} distinct Customer)
+
+--------------------------------------------------------------------------------
+
+Title: Central Margin %
+Label: Central Margin %
+ID: ckUkPS
+Tags: 
+
+Expression:
+Sum({$ <[Region Name]={"Central"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Central"}> }[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Sales $
+Label: Sales $
+ID: epqAX
+Tags: 
+
+Expression:
+Sum ([Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Sales
+Label: Sales
+ID: jywRbn
+Tags: 
+
+Expression:
+Sum([Sales Quantity])*Sum([Sales Price])
+
+--------------------------------------------------------------------------------
+
+Title: Margin %
+Label: Margin %
+ID: pHrfq
+Tags: 
+
+Expression:
+Sum([Sales Margin Amount])/Sum([Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Sales vs Budget %
+Label: Sales vs Budget %
+ID: puXGEs
+Tags: 
+
+Expression:
+Sum ([Budget Amount])/Sum ([Actual Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Total
+Label: Total
+ID: qCJ
+Tags: 
+
+Expression:
+If(isnull([Sales Amount]),Null(),Sum([Sales Amount]))
+
+--------------------------------------------------------------------------------
+
+Title: TY vs LY Sales
+Label: TY vs LY Sales
+ID: qKJg
+Tags: 
+
+Expression:
+(sum([YTD Sales Amount])-sum([LY YTD Sales Amount])*0.2)/sum([LY YTD Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Central Revenue
+Label: Central Revenue
+ID: qakbHD
+Tags: 
+
+Expression:
+Sum({$<[Region Name]={"Central"}>} [Sales Quantity]*[Sales Price])
+
+--------------------------------------------------------------------------------
+
+Title: Customer Count
+Label: Customer Count
+ID: tkevJQh
+Tags: 
+
+Expression:
+Count(distinct Customer)
+
+--------------------------------------------------------------------------------
+
+Title: Actual Amount
+Label: Actual Amount
+ID: vDhvSum
+Tags: 
+
+Expression:
+Sum ([Actual Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Notheast Margin %
+Label: Notheast Margin %
+ID: vWK
+Tags: 
+
+Expression:
+Sum({$ <[Region Name]={"Northeast"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Northeast"}> }[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Total Shipments
+Label: Total Shipments
+ID: wFLYsc
+Tags: 
+
+Expression:
+count(distinct Shipments)
+
+--------------------------------------------------------------------------------
+
+Title: Southern Margin %
+Label: Southern Margin %
+ID: wVMwZT
+Tags: 
+
+Expression:
+Sum({$ <[Region Name]={"Southern"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={"Southern"}> }[Sales Amount])
+
+--------------------------------------------------------------------------------
+
+Title: Southern Revenue
+Label: Southern Revenue
+ID: wXSQxBp
+Tags: 
+
+Expression:
+Sum({$<[Region Name]={"Southern"}>}   [Sales Quantity]*[Sales Price])
+
+--------------------------------------------------------------------------------
 
