@@ -1,5 +1,201 @@
 MASTER DIMENSIONS
 =================
 
-No master dimensions returned.
+Title: Product
+ID: 14d98166-8e9d-46ba-974b-70fd83b29b91
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Line
+ID: 2bdf44f8-9a5a-4bea-92e4-7264aa27e3ab
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Group
+ID: 2d0c76e0-f6f6-4dc4-8d9f-55dae429742d
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Regional Sales Mgr
+ID: 312d73b0-ceee-415f-a2ff-fff3c1b796b7
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: YearMonth
+ID: 4e407169-675a-4d03-8705-bdb2927108ef
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Business Family Name
+ID: 54c41583-e082-4d39-a493-da1595af6ff0
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Region Name
+ID: 561fae5e-7cea-42a7-a742-b0bb7fe63d0b
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Year
+ID: 7cd6768c-03dc-42d7-b6d0-02b6b25d38fd
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: City
+ID: AmMkUJQ
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Budget Period
+ID: BXnM
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Sales Price
+ID: BhNJzjb
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: State
+ID: JMtyDzJ
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Month
+ID: KHvcSGE
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Color by Metric
+ID: MJgXnN
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Sales Rep
+ID: UukqE
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Channel Name
+ID: apAyS
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Type Desc
+ID: c602b46b-ab46-4691-8871-00ecae6d6043
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Sub Group
+ID: e1432d2b-be66-4e9f-a134-65327550e346
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Product Type
+ID: eec944b3-ae84-46b3-8846-80580de26072
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Customer
+ID: f2a6777e-8e09-438d-bd3e-3faa6b4bfeef
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Area
+ID: mFFs
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: state name
+ID: yTmfTS
+Grouping: N
+Fields: 
+Labels: 
+Description: 
+
+--------------------------------------------------------------------------------
 
