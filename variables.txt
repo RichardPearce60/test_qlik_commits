@@ -1,5 +1,195 @@
 VARIABLES
 =========
 
-No variables returned.
+Name: var_mid_lat
+ID: 4b72c0da-c741-457d-a3bb-42e581210bb9
+Script Created: No
+Definition:
+=min(latitude)+(1+var_lat_offset)*((max(latitude)-min(latitude))/2)
+
+--------------------------------------------------------------------------------
+
+Name: var_mid_long
+ID: e37a704e-34fe-4a85-a69b-46c2bcfe25e6
+Script Created: No
+Definition:
+=min(longitude)+(max(longitude)-min(longitude))/2
+
+--------------------------------------------------------------------------------
+
+Name: var_maptype
+ID: e07540ec-8125-4730-a373-e5219e80836a
+Script Created: No
+Definition:
+=if(isnull(only(maptype)),fieldvalue( 'maptype', 1 ),maptype)
+
+--------------------------------------------------------------------------------
+
+Name: map_size_x
+ID: 8da6961f-4873-4522-93c0-59b48b05cc6c
+Script Created: No
+Definition:
+400
+
+--------------------------------------------------------------------------------
+
+Name: map_size_y
+ID: 0d89a0d6-4fbb-4ff4-8284-d58083411c5a
+Script Created: No
+Definition:
+400
+
+--------------------------------------------------------------------------------
+
+Name: Old_World_BI
+ID: 6a4e3c99-9559-443f-a0b0-c20506d68f41
+Script Created: No
+Definition:
+1
+
+--------------------------------------------------------------------------------
+
+Name: vShowExtensions
+ID: 4248c2da-4454-4172-b273-e4f78dc545f0
+Script Created: No
+Definition:
+1
+
+--------------------------------------------------------------------------------
+
+Name: vShowCube
+ID: 669449c0-9ba2-48e4-8a0d-ad892dcc0ad7
+Script Created: No
+Definition:
+1
+
+--------------------------------------------------------------------------------
+
+Name: vAdj
+ID: cc000a3a-0d1b-46b2-b997-ba1f6bc4a913
+Script Created: No
+Definition:
+730
+
+--------------------------------------------------------------------------------
+
+Name: vReloadTime
+ID: dbd2c9dd-52a2-4125-a45a-faa8948f6c6c
+Script Created: No
+Definition:
+39441.093055556
+
+--------------------------------------------------------------------------------
+
+Name: Price2
+ID: 8654d8f0-5e12-4e0c-80cd-9bf13fcd8f3d
+Script Created: No
+Definition:
+7.00
+
+--------------------------------------------------------------------------------
+
+Name: Qty2
+ID: a55821fd-26af-4a0a-aeed-584a8e7c0dbc
+Script Created: No
+Definition:
+0.00
+
+--------------------------------------------------------------------------------
+
+Name: OffsetNumber
+ID: 1f4445cb-4b08-4700-8737-6affe7cda3b8
+Script Created: No
+Definition:
+730
+
+--------------------------------------------------------------------------------
+
+Name: Price3
+ID: a6149364-0c0b-4312-b104-25fdef9d198c
+Script Created: No
+Definition:
+0.00
+
+--------------------------------------------------------------------------------
+
+Name: Cost2
+ID: 43aa6ee1-ab8c-4220-85fa-b38a728613d4
+Script Created: No
+Definition:
+0.00
+
+--------------------------------------------------------------------------------
+
+Name: vShowArch
+ID: 3a361347-2af1-4a47-89d1-52a12ceb9029
+Script Created: No
+Definition:
+0
+
+--------------------------------------------------------------------------------
+
+Name: gmap_key
+ID: 11b3eb22-7585-463d-bb13-e9c24a47e683
+Script Created: No
+Definition:
+ABQIAAAA5WrL_l-qI2agDqMYfGRG6BRJePNg4JCgwr1gUAo3Qr5DlFL3uhQEO91krcoZ-5jJMDdSYmwaoexigQ
+
+--------------------------------------------------------------------------------
+
+Name: max_zoom_level
+ID: 737cdd37-efc9-4b42-bcf0-3a640c9f1936
+Script Created: No
+Definition:
+9
+
+--------------------------------------------------------------------------------
+
+Name: var_pi180
+ID: ccd05217-d63c-492a-859e-c769e9693e3e
+Script Created: No
+Definition:
+=pi()/180
+
+--------------------------------------------------------------------------------
+
+Name: var_lat_offset
+ID: 3db989e6-6668-4d8b-9887-960546b23d02
+Script Created: No
+Definition:
+0
+
+--------------------------------------------------------------------------------
+
+Name: var_zoom
+ID: ec61631b-6d01-4456-b36c-6df19747f893
+Script Created: No
+Definition:
+=max(aggr(if(max( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) )-min( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) ) <map_size_x AND max((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))-min((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))<map_size_y,_zoom_level,1),_zoom_level))
+
+--------------------------------------------------------------------------------
+
+Name: var_mc2
+ID: cc0420d0-b3c5-4bf7-8f0f-535061d5ab47
+Script Created: No
+Definition:
+=256*pow(2,=max(aggr(if(max( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) )-min( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) ) <map_size_x AND max((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))-min((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))<map_size_y,_zoom_level,1),_zoom_level)))
+
+--------------------------------------------------------------------------------
+
+Name: var_mc1
+ID: d440971d-61b9-4433-b438-c02c1ee1b4c1
+Script Created: No
+Definition:
+=256*pow(2,(=max(aggr(if(max( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) )-min( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) ) <map_size_x AND max((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))-min((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))<map_size_y,_zoom_level,1),_zoom_level))-1))
+
+--------------------------------------------------------------------------------
+
+Name: vMaxSetScale
+ID: d03c2bf1-d6f2-4a9a-a756-712a27511a50
+Script Created: No
+Definition:
+=If(Count(distinct [Invoice Number]) < 500, 1,   	If(Count(distinct [Invoice Number]) < 1000, 10,   	If(Count(distinct [Invoice Number]) < 5000, 100, 1000)))
+
+--------------------------------------------------------------------------------
 
