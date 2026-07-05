@@ -3,6 +3,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "KHvcSGE",
         "object_id": "3e89a5b1-03a5-4293-96eb-0788a607ac89",
         "object_title": "",
         "object_type": "masterobject"
@@ -11,6 +13,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "NQAubZc",
         "object_title": "Sales vs Margin",
         "object_type": "masterobject"
@@ -19,6 +23,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "nbAZEN",
         "object_title": "Sales Reps Sales Variance",
         "object_type": "masterobject"
@@ -27,6 +33,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "14d98166-8e9d-46ba-974b-70fd83b29b91",
         "object_id": "PJTJWqx",
         "object_title": "Sales $ by Product (sorted by budget $)",
         "object_type": "barchart"
@@ -35,6 +43,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "BXnM",
         "object_id": "meQGcP",
         "object_title": "Actual vs Budget",
         "object_type": "combochart"
@@ -43,6 +53,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "SeYrbD",
         "object_title": "",
         "object_type": "table"
@@ -51,6 +63,8 @@
         "dimension_index": 1,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "SeYrbD",
         "object_title": "",
         "object_type": "table"
@@ -59,6 +73,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "ejEQJB",
         "object_title": "Sales by Product Group",
         "object_type": "barchart"
@@ -67,6 +83,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "wmZEw",
         "object_title": "Sales vs Margin by Product Group",
         "object_type": "scatterplot"
@@ -75,6 +93,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "4e407169-675a-4d03-8705-bdb2927108ef",
         "object_id": "rTSuUH",
         "object_title": "Average Daily Sales",
         "object_type": "linechart"
@@ -83,6 +103,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "apAyS",
         "object_id": "ngAuD",
         "object_title": "Sales by Channel",
         "object_type": "treemap"
@@ -91,6 +113,8 @@
         "dimension_index": 1,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "2d0c76e0-f6f6-4dc4-8d9f-55dae429742d",
         "object_id": "ngAuD",
         "object_title": "Sales by Channel",
         "object_type": "treemap"
@@ -99,6 +123,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "f2a6777e-8e09-438d-bd3e-3faa6b4bfeef",
         "object_id": "RgRdrZ",
         "object_title": "YOY Sales by Customer",
         "object_type": "pivot-table"
@@ -111,6 +137,8 @@
         "field_labels": [
             "Product Sub Group"
         ],
+        "is_master_item": false,
+        "library_id": null,
         "object_id": "XNTGgf",
         "object_title": {
             "qStringExpression": {
@@ -123,6 +151,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "ferLVj",
         "object_title": "",
         "object_type": "table"
@@ -131,6 +161,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "jujzX",
         "object_title": "",
         "object_type": "scatterplot"
@@ -139,6 +171,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "mkQXr",
         "object_title": "",
         "object_type": "scatterplot"
@@ -147,6 +181,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "ycEcd",
         "object_title": "",
         "object_type": "scatterplot"
@@ -155,6 +191,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "PbCMeyM",
         "object_title": "",
         "object_type": "scatterplot"
@@ -163,6 +201,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "QaqJ",
         "object_title": "Product Group Sales vs Budget",
         "object_type": "scatterplot"
@@ -171,6 +211,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "PwaUu",
         "object_title": "",
         "object_type": "table"
@@ -179,6 +221,8 @@
         "dimension_index": 1,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "PwaUu",
         "object_title": "",
         "object_type": "table"
@@ -187,6 +231,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "LcaECq",
         "object_title": {
             "qStringExpression": {
@@ -199,6 +245,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "JMtyDzJ",
         "object_id": "GmcMk",
         "object_title": "Sales by State",
         "object_type": "piechart"
@@ -207,6 +255,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "2d0c76e0-f6f6-4dc4-8d9f-55dae429742d",
         "object_id": "mYPpJB",
         "object_title": "Sales Qty by Sales Rep",
         "object_type": "treemap"
@@ -215,6 +265,8 @@
         "dimension_index": 1,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "mYPpJB",
         "object_title": "Sales Qty by Sales Rep",
         "object_type": "treemap"
@@ -223,6 +275,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "zVghQK",
         "object_title": "Sales vs Margin",
         "object_type": "scatterplot"
@@ -231,6 +285,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "ZCLPX",
         "object_title": "TY vs LY Sales",
         "object_type": "scatterplot"
@@ -239,6 +295,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "JmKTaF",
         "object_title": "Sales vs Budget",
         "object_type": "scatterplot"
@@ -247,6 +305,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "RSfXpWZ",
         "object_title": "",
         "object_type": "table"
@@ -255,6 +315,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "2d0c76e0-f6f6-4dc4-8d9f-55dae429742d",
         "object_id": "cXahBQ",
         "object_title": "",
         "object_type": "piechart"
@@ -263,6 +325,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "KHvcSGE",
         "object_id": "WSPHg",
         "object_title": "Budget Over Time",
         "object_type": "linechart"
@@ -271,6 +335,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "KHvcSGE",
         "object_id": "JRVHPjJ",
         "object_title": "Sales Over Time",
         "object_type": "linechart"
@@ -279,6 +345,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "KHvcSGE",
         "object_id": "fxyuxvp",
         "object_title": " Margin Amount Over Time",
         "object_type": "linechart"
@@ -287,6 +355,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "EdSuNFM",
         "object_title": "",
         "object_type": "piechart"
@@ -295,6 +365,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "yTmfTS",
         "object_id": "TeHsna",
         "object_title": "",
         "object_type": "piechart"
@@ -303,6 +375,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "2d0c76e0-f6f6-4dc4-8d9f-55dae429742d",
         "object_id": "kdpJKE",
         "object_title": "Sales Quantity by Sales Rep",
         "object_type": "treemap"
@@ -311,6 +385,8 @@
         "dimension_index": 1,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "kdpJKE",
         "object_title": "Sales Quantity by Sales Rep",
         "object_type": "treemap"
@@ -319,6 +395,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "e1432d2b-be66-4e9f-a134-65327550e346",
         "object_id": "aAQLGx",
         "object_title": "Sales vs Budget",
         "object_type": "scatterplot"
@@ -327,6 +405,8 @@
         "dimension_index": 0,
         "field_defs": [],
         "field_labels": [],
+        "is_master_item": true,
+        "library_id": "UukqE",
         "object_id": "rszPMj",
         "object_title": {
             "qStringExpression": {
