@@ -1,7 +1,9 @@
 [
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "NCRyd",
         "measure_index": 0,
         "object_id": "3e89a5b1-03a5-4293-96eb-0788a607ac89",
         "object_title": "",
@@ -9,7 +11,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 0,
         "object_id": "NQAubZc",
         "object_title": "Sales vs Margin",
@@ -17,7 +21,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "KJuWm",
         "measure_index": 1,
         "object_id": "NQAubZc",
         "object_title": "Sales vs Margin",
@@ -25,7 +31,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "HNMMUb",
         "measure_index": 0,
         "object_id": "nbAZEN",
         "object_title": "Sales Reps Sales Variance",
@@ -33,7 +41,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 0,
         "object_id": "PJTJWqx",
         "object_title": "Sales $ by Product (sorted by budget $)",
@@ -41,7 +51,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "vDhvSum",
         "measure_index": 0,
         "object_id": "meQGcP",
         "object_title": "Actual vs Budget",
@@ -49,7 +61,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "Setuf",
         "measure_index": 1,
         "object_id": "meQGcP",
         "object_title": "Actual vs Budget",
@@ -57,7 +71,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "SeYrbD",
         "object_title": "",
@@ -65,7 +81,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "vDhvSum",
         "measure_index": 1,
         "object_id": "SeYrbD",
         "object_title": "",
@@ -73,7 +91,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "Setuf",
         "measure_index": 2,
         "object_id": "SeYrbD",
         "object_title": "",
@@ -81,7 +101,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "jywRbn",
         "measure_index": 0,
         "object_id": "ejEQJB",
         "object_title": "Sales by Product Group",
@@ -89,7 +111,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 0,
         "object_id": "wmZEw",
         "object_title": "Sales vs Margin by Product Group",
@@ -97,7 +121,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "jywRbn",
         "measure_index": 1,
         "object_id": "wmZEw",
         "object_title": "Sales vs Margin by Product Group",
@@ -105,7 +131,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "LvjWKp",
         "measure_index": 0,
         "object_id": "rTSuUH",
         "object_title": "Average Daily Sales",
@@ -113,7 +141,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "NCRyd",
         "measure_index": 0,
         "object_id": "yJChy",
         "object_title": "Margin",
@@ -121,7 +151,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 1,
         "object_id": "yJChy",
         "object_title": "Margin",
@@ -129,7 +161,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 0,
         "object_id": "dNmwJzh",
         "object_title": "Sales",
@@ -137,7 +171,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "jywRbn",
         "measure_index": 0,
         "object_id": "ngAuD",
         "object_title": "Sales by Channel",
@@ -145,7 +181,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "KJuWm",
         "measure_index": 0,
         "object_id": "RgRdrZ",
         "object_title": "YOY Sales by Customer",
@@ -153,7 +191,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "JWjf",
         "measure_index": 1,
         "object_id": "RgRdrZ",
         "object_title": "YOY Sales by Customer",
@@ -161,7 +201,9 @@
     },
     {
         "expression": "Sum ([Sales Amount])",
+        "is_master_item": false,
         "label": "Sales $",
+        "library_id": null,
         "measure_index": 0,
         "object_id": "XNTGgf",
         "object_title": {
@@ -173,7 +215,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 0,
         "object_id": "ferLVj",
         "object_title": "",
@@ -181,7 +225,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 1,
         "object_id": "ferLVj",
         "object_title": "",
@@ -189,7 +235,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "RcBYTz",
         "measure_index": 2,
         "object_id": "ferLVj",
         "object_title": "",
@@ -197,7 +245,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "ckUkPS",
         "measure_index": 0,
         "object_id": "jujzX",
         "object_title": "",
@@ -205,7 +255,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "qakbHD",
         "measure_index": 1,
         "object_id": "jujzX",
         "object_title": "",
@@ -213,7 +265,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "vWK",
         "measure_index": 0,
         "object_id": "mkQXr",
         "object_title": "",
@@ -221,7 +275,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "FBpdkpq",
         "measure_index": 1,
         "object_id": "mkQXr",
         "object_title": "",
@@ -229,7 +285,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "wVMwZT",
         "measure_index": 0,
         "object_id": "ycEcd",
         "object_title": "",
@@ -237,7 +295,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "wXSQxBp",
         "measure_index": 1,
         "object_id": "ycEcd",
         "object_title": "",
@@ -245,7 +305,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "Pwma",
         "measure_index": 0,
         "object_id": "PbCMeyM",
         "object_title": "",
@@ -253,7 +315,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "RJVvMZU",
         "measure_index": 1,
         "object_id": "PbCMeyM",
         "object_title": "",
@@ -261,7 +325,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "QaqJ",
         "object_title": "Product Group Sales vs Budget",
@@ -269,7 +335,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 1,
         "object_id": "QaqJ",
         "object_title": "Product Group Sales vs Budget",
@@ -277,7 +345,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "PwaUu",
         "object_title": "",
@@ -285,7 +355,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 1,
         "object_id": "PwaUu",
         "object_title": "",
@@ -293,7 +365,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 0,
         "object_id": "LcaECq",
         "object_title": {
@@ -305,7 +379,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 0,
         "object_id": "GmcMk",
         "object_title": "Sales by State",
@@ -313,7 +389,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "RcBYTz",
         "measure_index": 0,
         "object_id": "mYPpJB",
         "object_title": "Sales Qty by Sales Rep",
@@ -321,7 +399,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 0,
         "object_id": "HPJpkhX",
         "object_title": "",
@@ -329,7 +409,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "puXGEs",
         "measure_index": 0,
         "object_id": "PRPs",
         "object_title": "",
@@ -337,7 +419,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "qKJg",
         "measure_index": 0,
         "object_id": "KSupFHP",
         "object_title": "",
@@ -345,7 +429,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 0,
         "object_id": "zVghQK",
         "object_title": "Sales vs Margin",
@@ -353,7 +439,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "KJuWm",
         "measure_index": 1,
         "object_id": "zVghQK",
         "object_title": "Sales vs Margin",
@@ -361,7 +449,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "JWjf",
         "measure_index": 0,
         "object_id": "ZCLPX",
         "object_title": "TY vs LY Sales",
@@ -369,7 +459,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "KJuWm",
         "measure_index": 1,
         "object_id": "ZCLPX",
         "object_title": "TY vs LY Sales",
@@ -377,7 +469,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "JmKTaF",
         "object_title": "Sales vs Budget",
@@ -385,7 +479,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 1,
         "object_id": "JmKTaF",
         "object_title": "Sales vs Budget",
@@ -393,7 +489,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "KJuWm",
         "measure_index": 0,
         "object_id": "RSfXpWZ",
         "object_title": "",
@@ -401,7 +499,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "JWjf",
         "measure_index": 1,
         "object_id": "RSfXpWZ",
         "object_title": "",
@@ -409,7 +509,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "EUFVcR",
         "measure_index": 2,
         "object_id": "RSfXpWZ",
         "object_title": "",
@@ -417,7 +519,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "NCRyd",
         "measure_index": 0,
         "object_id": "cXahBQ",
         "object_title": "",
@@ -425,7 +529,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "WSPHg",
         "object_title": "Budget Over Time",
@@ -433,7 +539,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 0,
         "object_id": "JRVHPjJ",
         "object_title": "Sales Over Time",
@@ -441,7 +549,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "NCRyd",
         "measure_index": 0,
         "object_id": "fxyuxvp",
         "object_title": " Margin Amount Over Time",
@@ -449,7 +559,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "pHrfq",
         "measure_index": 0,
         "object_id": "JRNGq",
         "object_title": "",
@@ -457,7 +569,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "qKJg",
         "measure_index": 0,
         "object_id": "PUpAQty",
         "object_title": "",
@@ -465,7 +579,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "EdSuNFM",
         "object_title": "",
@@ -473,7 +589,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 0,
         "object_id": "TeHsna",
         "object_title": "",
@@ -481,7 +599,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "puXGEs",
         "measure_index": 0,
         "object_id": "sKDevh",
         "object_title": "",
@@ -489,7 +609,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "RcBYTz",
         "measure_index": 0,
         "object_id": "kdpJKE",
         "object_title": "Sales Quantity by Sales Rep",
@@ -497,7 +619,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "CGqTNpj",
         "measure_index": 0,
         "object_id": "aAQLGx",
         "object_title": "Sales vs Budget",
@@ -505,7 +629,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "epqAX",
         "measure_index": 1,
         "object_id": "aAQLGx",
         "object_title": "Sales vs Budget",
@@ -513,7 +639,9 @@
     },
     {
         "expression": null,
+        "is_master_item": true,
         "label": null,
+        "library_id": "jywRbn",
         "measure_index": 0,
         "object_id": "rszPMj",
         "object_title": {
